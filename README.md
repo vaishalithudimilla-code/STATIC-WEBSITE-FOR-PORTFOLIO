@@ -1,1 +1,17 @@
 # STATIC-WEBSITE-FOR-PORTFOLIO
+
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: THUDIMILLA VAISHALI
+
+*INTERN ID*: CT04DR919
+
+*DOMAIN*: SOFTWARE DEVELOPMENT
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTHOSH
+
+This project is a fully responsive and interactive personal portfolio website developed using HTML, CSS, and JavaScript, created to present my professional skills, academic background, and personal achievements in a visually appealing and highly accessible format. The portfolio acts as a digital resume designed to support internship applications, placement drives, and professional networking by offering recruiters a clear, well-organized overview of my capabilities. The structure of the website is built using semantic HTML5 to ensure logical content flow, improved search engine optimization, and enhanced accessibility for all users, including assistive technologies. CSS3 plays a crucial role in shaping the modern and polished appearance of the interface by incorporating advanced styling techniques such as Flexbox, CSS Grid, custom variables, responsive media queries, gradients, hover animations, and card-based layouts. These styling methods collectively create a professional, visually consistent, and device-friendly user experience. JavaScript adds dynamic functionality to the project through smooth scrolling behavior, animated skill bars that visually represent my technical strengths, a dark mode toggle with persistent theme storage using Local Storage, and a subtle header shadow effect that activates when scrolling to enhance visual depth and navigation clarity. The website also includes a functional contact form interface that demonstrates form handling logic, although it currently operates in demo mode without backend integration. Tools such as Visual Studio Code and its Live Server extension were used throughout development to streamline editing, debugging, and real-time page testing, while browser developer tools assisted in refining layout and responsiveness. The portfolio includes updated personal details such as my email address (vaishalithudimilla@gmail.com
+), contact number (9014477879), LinkedIn profile, and my academic information stating that I am pursuing a B.Tech in Computer Science and Engineering from KMEC, graduating in 2026. The design focuses on clarity and professionalism, making it suitable for technical evaluations and online presentations. The Projects section showcases my work, including this portfolio website, algorithm practice records, and a Flask-based language translator project, all of which highlight my growing expertise in software development and problem-solving. The Skills section features animated progress indicators for HTML, CSS, JavaScript, Java, and Data Structures, visually communicating proficiency levels in core areas. The responsive design ensures that the website adapts seamlessly to desktops, tablets, and mobile screens, maintaining usability and visual appeal on all devices. This project demonstrates strong command over frontend technologies, UI/UX principles, responsive design practices, and code organization techniques. By building this portfolio, I have strengthened my understanding of modern web development workflows, improved my ability to convert design concepts into functional interfaces, and enhanced my readiness for real-world software development roles. Overall, this portfolio website reflects my technical skills, creativity, attention to detail, and commitment to continuous learning.
+
