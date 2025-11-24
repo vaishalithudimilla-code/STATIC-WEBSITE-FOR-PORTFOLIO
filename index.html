@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Developer Portfolio — Vaishali</title>
+  <meta name="description" content="Responsive developer portfolio template (HTML, CSS, JS)." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden>VT</div>
+        <div>
+          <div class="name">Vaishali Thudimilla</div>
+          <div class="role">Frontend / Java / Problem Solver</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a class="ghost" href="#projects">Projects</a>
+        <a class="ghost" href="#skills">Skills</a>
+        <a class="ghost" href="#contact">Contact</a>
+        <button id="themeToggle" class="ghost" aria-pressed="false" title="Toggle dark mode">Toggle Dark</button>
+        <a class="btn" href="#" download="Vaishali_Resume.pdf">Download Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="card hero" role="region" aria-label="Introduction">
+          <!-- local uploaded image path -->
+          <img id="profileImg" src="/mnt/data/3f8baf77-9664-4710-afb6-195842857637.png" alt="Vaishali Thudimilla profile picture" />
+          <div>
+            <h1>Hi, I'm Vaishali <span aria-hidden>👋</span></h1>
+            <p class="lead">I'm a developer who loves building clean, responsive web apps and solving algorithmic problems.</p>
+            <div class="cta">
+              <a class="btn" href="#projects">See Projects</a>
+              <a class="ghost resume-link" href="#contact">Hire Me</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card section about" id="about">
+          <h2>About</h2>
+          <p>I'm an aspiring software engineer focused on frontend and Java backend. I enjoy translating designs into
+            accessible user interfaces and optimizing algorithms for performance. Currently preparing for internship
+            drives and competitive coding challenges.</p>
+        </div>
+
+        <div id="skills" class="card section">
+          <h2>Skills</h2>
+          <div class="skills">
+            <div class="skill">
+              <strong>HTML &amp; CSS</strong>
+              <div class="bar" aria-hidden><i data-width="92%"></i></div>
+            </div>
+            <div class="skill">
+              <strong>JavaScript</strong>
+              <div class="bar" aria-hidden><i data-width="80%"></i></div>
+            </div>
+            <div class="skill">
+              <strong>Java</strong>
+              <div class="bar" aria-hidden><i data-width="75%"></i></div>
+            </div>
+            <div class="skill">
+              <strong>Data Structures</strong>
+              <div class="bar" aria-hidden><i data-width="78%"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="projects" class="card section">
+          <h2>Projects</h2>
+          <div class="projects">
+            <article class="project" aria-labelledby="p1">
+              <div class="project-head">
+                <div>
+                  <strong id="p1" class="project-title">Portfolio Website (This Template)</strong>
+                  <div class="project-desc">A responsive single-file portfolio using vanilla HTML/CSS/JS.</div>
+                </div>
+                <div class="project-tech">Tech: HTML • CSS • JS</div>
+              </div>
+              <div class="meta">
+                <div class="tags"><span class="tag">Responsive</span><span class="tag">Accessibility</span></div>
+                <div class="links"><a class="ghost" href="#" aria-label="Live demo for portfolio">Live</a><a class="ghost" href="#" aria-label="Source code for portfolio">Code</a></div>
+              </div>
+            </article>
+
+            <article class="project" aria-labelledby="p2">
+              <strong id="p2" class="project-title">Algorithm Practice - LeetCode Prep</strong>
+              <div class="project-desc">Set of solved algorithm problems and notes</div>
+              <div class="meta">
+                <div class="tags"><span class="tag">Java</span><span class="tag">DSA</span></div>
+                <div class="links"><a class="ghost" href="#" aria-label="View notes">Notes</a></div>
+              </div>
+            </article>
+
+            <article class="project" aria-labelledby="p3">
+              <strong id="p3" class="project-title">Flask Translator App (Mini Project)</strong>
+              <div class="project-desc">A translation & detection app built with Flask.</div>
+              <div class="meta">
+                <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span></div>
+                <div class="links"><a class="ghost" href="#" aria-label="Open repository">Repo</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Education</h2>
+          <div class="edu">
+            B.Tech — Computer Science and Engineering<br/>
+            KMEC, 2026
+          </div>
+        </div>
+
+      </section>
+
+      <aside>
+        <div class="card contact" role="region" aria-label="Contact details">
+          <h2 id="contact">Contact</h2>
+          <div class="contact-list">
+            <div><strong>Email:</strong>
+              <a href="mailto:vaishalithudimilla@gmail.com">vaishalithudimilla@gmail.com</a>
+            </div>
+
+            <div><strong>Phone:</strong>
+              <a href="tel:+919014477879">9014477879</a>
+            </div>
+
+            <div class="socials">
+              <!-- GitHub intentionally removed since not provided -->
+              <a class="ghost" href="https://www.linkedin.com/in/vaishali-thudimilla-a74807389" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Quick Resume</h2>
+          <p class="muted">Short bullets you can paste in job applications:</p>
+          <ul class="resume-bullets">
+            <li>Frontend developer with experience building responsive UIs.</li>
+            <li>Good problem solving and data structures background.</li>
+            <li>Version control with Git and GitHub.</li>
+          </ul>
+          <a class="btn" href="#">Download PDF</a>
+        </div>
+
+        <div class="card">
+          <h2>Contact Form (Demo)</h2>
+          <form id="contactForm">
+            <label class="sr-only" for="name">Your name</label>
+            <input id="name" placeholder="Your name" required />
+            <label class="sr-only" for="email">Your email</label>
+            <input id="email" placeholder="Your email" type="email" required />
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" placeholder="Message" rows="4"></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+          <div id="formMsg" class="muted" aria-live="polite"></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>Built with <span aria-hidden>❤️</span> — Edit these files to personalize.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
